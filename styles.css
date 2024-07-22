@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .container form {
@@ -22,18 +23,6 @@
     border-radius: 4px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
     position: relative;
-}
-
-.fa-paper-plane {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #fff;
-    font-size: 26px;
-    padding: 20px;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .input-group {
@@ -86,6 +75,8 @@ form button {
     color: red;
 }
 
-.input-group span i {
-    color: seagreen;
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white; /* Adjust the color if needed */
 }
